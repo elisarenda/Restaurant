@@ -1,0 +1,349 @@
+/* line 16, ../sass/style.scss */
+html,
+body {
+  font-family: "Raleway", sans-serif;
+  font-smoothing: antialiased;
+  height: 100%;
+}
+
+/* line 23, ../sass/style.scss */
+a {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+/* line 28, ../sass/style.scss */
+.col-lg-1 {
+  text-align: center;
+}
+
+/* line 32, ../sass/style.scss */
+p {
+  background: antiquewhite;
+  width: fit-content;
+  margin: auto;
+  border-radius: 40px;
+  padding: 8px;
+}
+
+/* line 40, ../sass/style.scss */
+#navbar {
+  overflow: hidden;
+  background-color: #faebd7;
+}
+
+/* line 45, ../sass/style.scss */
+#navbar a {
+  float: left;
+  display: block;
+  color: #3a3231;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* line 54, ../sass/style.scss */
+.content {
+  padding: 16px;
+}
+
+/* line 58, ../sass/style.scss */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* line 64, ../sass/style.scss */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* line 69, ../sass/style.scss */
+img {
+  width: 300px;
+  overflow: hidden;
+}
+
+/* line 75, ../sass/style.scss */
+h1 {
+  display: block;
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin: 0 !important;
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* line 86, ../sass/style.scss */
+#projects {
+  background-color: #3a3231;
+  padding: 80px 0;
+}
+/* line 90, ../sass/style.scss */
+#projects h2 {
+  display: block;
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin: 0 !important;
+  margin-after: .83em;
+  margin-before: .83em;
+  padding-bottom: 50px;
+  position: relative;
+  text-align: center;
+  color: antiquewhite;
+}
+/* line 103, ../sass/style.scss */
+#projects h2after {
+  bottom: 30px;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 100px;
+}
+
+/* line 116, ../sass/style.scss */
+#about {
+  background-color: #fdfdff;
+  margin: 0;
+  min-height: 55%;
+  padding: 80px 0;
+}
+/* line 122, ../sass/style.scss */
+#about h2 {
+  display: block;
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin: 0 !important;
+  margin-after: .83em;
+  margin-before: .83em;
+  padding-bottom: 50px;
+  text-align: center;
+}
+/* line 134, ../sass/style.scss */
+#about h2after {
+  bottom: 30px;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 100px;
+}
+/* line 146, ../sass/style.scss */
+#about div {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.4em;
+  text-indent: 25px;
+}
+
+/* line 156, ../sass/style.scss */
+#contact {
+  background-color: #222426;
+  font-size: 25px;
+}
+/* line 160, ../sass/style.scss */
+#contact strong {
+  color: #ef8d7d;
+}
+
+@media (min-width: 1024px) {
+  /* line 166, ../sass/style.scss */
+  #menu-button {
+    font-size: 14px;
+    left: 2.5em;
+    position: fixed;
+    top: 2.5em;
+    z-index: 2;
+  }
+
+  /* line 177, ../sass/style.scss */
+  #home h1 p {
+    font-size: 42px;
+    font-weight: 400;
+  }
+  /* line 182, ../sass/style.scss */
+  #home h1 strong {
+    font-size: 46px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* line 190, ../sass/style.scss */
+  #menu-button {
+    font-size: 12px;
+    left: 2.5em;
+    position: fixed;
+    top: 2.5em;
+    z-index: 2;
+  }
+
+  /* line 201, ../sass/style.scss */
+  #home h1 p {
+    font-size: 38px;
+    font-weight: 400;
+  }
+  /* line 206, ../sass/style.scss */
+  #home h1 strong {
+    font-size: 42px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  /* line 214, ../sass/style.scss */
+  #menu-button {
+    font-size: 10px;
+    left: 2.5em;
+    position: fixed;
+    top: 2.5em;
+    z-index: 2;
+  }
+
+  /* line 225, ../sass/style.scss */
+  #home h1 p {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  /* line 230, ../sass/style.scss */
+  #home h1 strong {
+    font-size: 34px;
+  }
+
+  /* line 237, ../sass/style.scss */
+  #contact button {
+    font-size: .7em;
+  }
+  /* line 241, ../sass/style.scss */
+  #contact p {
+    font-size: .7em;
+  }
+}
+/* line 247, ../sass/style.scss */
+.dark-gray-background {
+  background-color: #222426;
+}
+
+/* line 251, ../sass/style.scss */
+.light-white-font {
+  color: black;
+}
+
+/* line 254, ../sass/style.scss */
+.light-blue-background {
+  background-color: #edf9f9;
+}
+
+/* line 258, ../sass/style.scss */
+.middle-beige-font {
+  color: #faebd7 !important;
+}
+
+/* line 262, ../sass/style.scss */
+.middle-beige-background {
+  background-color: #faebd7;
+}
+
+/* line 266, ../sass/style.scss */
+.dark-blue-font {
+  color: #546a7b;
+}
+
+/* line 270, ../sass/style.scss */
+.center {
+  left: 50%;
+  position: relative;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 277, ../sass/style.scss */
+.container-fluid {
+  min-height: 60%;
+  padding: 0;
+}
+
+/* line 282, ../sass/style.scss */
+.fill {
+  height: 100%;
+  min-height: 100%;
+}
+
+/* line 287, ../sass/style.scss */
+.footer {
+  bottom: 0;
+  min-height: 30%;
+  position: relative;
+}
+/* line 292, ../sass/style.scss */
+.footer .container {
+  left: 50%;
+  padding-top: 1.3em;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+/* line 302, ../sass/style.scss */
+.fixed-width {
+  max-width: 300px;
+  min-width: 300px;
+}
+
+/* line 307, ../sass/style.scss */
+.email {
+  font-size: .9em;
+  height: 2.4em;
+  width: 8.7em;
+}
+
+/* line 314, ../sass/style.scss */
+.typed-cursor {
+  -webkit-animation: blink .7s infinite;
+  -moz-animation: blink .7s infinite;
+  animation: blink .7s infinite;
+  opacity: 1;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
