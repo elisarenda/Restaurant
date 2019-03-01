@@ -1,0 +1,280 @@
+/* line 1, ../sass/style3.scss */
+body {
+  margin: auto;
+  background: #f7f7f7;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 7, ../sass/style3.scss */
+h2 {
+  font-family: Raleway;
+  display: block;
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin: 0 !important;
+  position: relative;
+  text-align: center;
+  color: white;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* line 31, ../sass/style3.scss */
+header {
+  background-color: #e8e8e8;
+}
+
+/* line 35, ../sass/style3.scss */
+#navbar ul {
+  list-style: none;
+  margin: 0;
+  font-family: raleway;
+  width: 100%;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* line 44, ../sass/style3.scss */
+#navbar ul li {
+  display: inline-block;
+  margin: 13px;
+}
+
+/* line 48, ../sass/style3.scss */
+#navbar ul li a {
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: #c0a9a9;
+}
+
+/* line 53, ../sass/style3.scss */
+#navbar ul li a,
+#navbar ul li a:after,
+#navbar ul li a:before {
+  transition: all .5s;
+}
+
+/* line 58, ../sass/style3.scss */
+#navbar ul li a:hover {
+  color: #6e6868d9;
+}
+
+/* stroke */
+/* line 63, ../sass/style3.scss */
+#navbar.stroke ul li a {
+  position: relative;
+}
+
+/* line 67, ../sass/style3.scss */
+#navbar.stroke ul li a:after,
+#navbar ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #6e6868d9;
+  height: 1px;
+}
+
+/* line 80, ../sass/style3.scss */
+#navbar.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+/* line 84, ../sass/style3.scss */
+#navbar ul li a {
+  transition: all 1s;
+}
+
+/* line 88, ../sass/style3.scss */
+#navbar ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+
+/* line 94, ../sass/style3.scss */
+#navbar ul li a:hover {
+  color: #6e6868d9;
+  z-index: 1;
+}
+
+/* line 98, ../sass/style3.scss */
+#navbar ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  opacity: 1;
+}
+
+/* line 105, ../sass/style3.scss */
+.info p {
+  text-align: center;
+  color: #999;
+  text-transform: none;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+/* line 114, ../sass/style3.scss */
+.info i {
+  color: #F6AA93;
+}
+
+/* line 117, ../sass/style3.scss */
+form h1 {
+  font-size: 18px;
+  background: #b6a893b8 none repeat scroll 0% 0%;
+  color: white;
+  padding: 22px 25px;
+  border-radius: 5px 5px 0px 0px;
+  margin: auto;
+  text-shadow: none;
+  text-align: left;
+  font-family: old standard tt;
+}
+
+/* line 129, ../sass/style3.scss */
+form {
+  border-radius: 5px;
+  max-width: 700px;
+  width: 100%;
+  margin: 5% auto;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+/* line 138, ../sass/style3.scss */
+p span {
+  color: #F00;
+}
+
+/* line 142, ../sass/style3.scss */
+p {
+  margin: 0px;
+  font-weight: 500;
+  line-height: 2;
+  color: #333;
+  font-family: raleway;
+}
+
+/* line 150, ../sass/style3.scss */
+h1 {
+  text-align: center;
+  color: #666;
+  text-shadow: 1px 1px 0px #FFF;
+  margin: 50px 0px 0px 0px;
+}
+
+/* line 157, ../sass/style3.scss */
+input {
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #eee;
+  margin-bottom: 15px;
+  width: 75%;
+  height: 40px;
+  float: left;
+  padding: 0px 15px;
+}
+
+/* line 167, ../sass/style3.scss */
+a {
+  text-decoration: inherit;
+}
+
+/* line 171, ../sass/style3.scss */
+textarea {
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #EEE;
+  margin: 0;
+  width: 75%;
+  height: 130px;
+  float: left;
+  padding: 0px 15px;
+}
+
+/* line 181, ../sass/style3.scss */
+.form-group {
+  overflow: hidden;
+  clear: both;
+}
+
+/* line 186, ../sass/style3.scss */
+.icon-case {
+  width: 35px;
+  float: left;
+  border-radius: 5px 0px 0px 5px;
+  background: #eeeeee;
+  height: 42px;
+  position: relative;
+  text-align: center;
+  line-height: 40px;
+}
+
+/* line 197, ../sass/style3.scss */
+i {
+  color: #555;
+}
+
+/* line 201, ../sass/style3.scss */
+.contentform {
+  padding: 40px 30px;
+}
+
+/* line 205, ../sass/style3.scss */
+.bouton-contact {
+  background-color: #b6a893b8;
+  color: #FFF;
+  text-align: center;
+  width: 100%;
+  border: 0;
+  padding: 17px 25px;
+  border-radius: 0px 0px 5px 5px;
+  cursor: pointer;
+  margin-top: 40px;
+  font-size: 18px;
+  font-family: old standard tt;
+}
+
+/* line 219, ../sass/style3.scss */
+.leftcontact {
+  width: 49.5%;
+  float: left;
+  border-right: 1px dotted #CCC;
+  box-sizing: border-box;
+  padding: 0px 15px 0px 0px;
+}
+
+/* line 227, ../sass/style3.scss */
+.rightcontact {
+  width: 49.5%;
+  float: right;
+  box-sizing: border-box;
+  padding: 0px 0px 0px 15px;
+}
+
+/* line 234, ../sass/style3.scss */
+#sendmessage {
+  border: 1px solid #fff;
+  display: none;
+  text-align: center;
+  margin: 10px 0;
+  font-weight: 600;
+  margin-bottom: 30px;
+  background-color: #EBF6E0;
+  color: black;
+  border: 1px solid #B3DC82;
+  padding: 13px 40px 13px 18px;
+  border-radius: 3px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.03);
+}
+
+/* line 249, ../sass/style3.scss */
+#sendmessage.show, .show {
+  display: block;
+}
