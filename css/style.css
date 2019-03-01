@@ -38,43 +38,44 @@ p {
 #navbar ul {
   list-style: none;
   margin: 0;
-  background-color: #6e6868d9;
+  background-color: #6e686847;
   font-family: 'Old Standard TT', serif;
   width: 100%;
+  height: 53px;
 }
 
-/* line 56, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 #navbar ul li {
   display: inline-block;
   margin: 20px;
 }
 
-/* line 60, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 #navbar ul li a {
   padding-bottom: 10px;
   text-decoration: none;
   color: #fff;
 }
 
-/* line 65, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 #navbar ul li a,
 #navbar ul li a:after,
 #navbar ul li a:before {
   transition: all .5s;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 71, ../sass/style.scss */
 #navbar ul li a:hover {
   color: antiquewhite;
 }
 
 /* stroke */
-/* line 75, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 #navbar.stroke ul li a {
   position: relative;
 }
 
-/* line 79, ../sass/style.scss */
+/* line 80, ../sass/style.scss */
 #navbar.stroke ul li a:after,
 #navbar ul li a:after {
   position: absolute;
@@ -89,17 +90,17 @@ p {
   height: 1px;
 }
 
-/* line 92, ../sass/style.scss */
+/* line 93, ../sass/style.scss */
 #navbar.stroke ul li a:hover:after {
   width: 100%;
 }
 
-/* line 96, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 #navbar ul li a {
   transition: all 1s;
 }
 
-/* line 100, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 #navbar ul li a:after {
   text-align: left;
   content: '.';
@@ -107,30 +108,30 @@ p {
   opacity: 0;
 }
 
-/* line 106, ../sass/style.scss */
+/* line 107, ../sass/style.scss */
 #navbar ul li a:hover {
   color: antiquewhite;
   z-index: 1;
 }
 
-/* line 110, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 #navbar ul li a:hover:after {
   z-index: -10;
   animation: fill 1s forwards;
   opacity: 1;
 }
 
-/* line 118, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 #top p:hover {
   background: #818181;
   text-decoration: none;
   color: white;
 }
-/* line 124, ../sass/style.scss */
+/* line 125, ../sass/style.scss */
 #top a {
   font-family: 'Old Standard TT', serif;
 }
-/* line 127, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 #top h4 {
   font-family: 'Old Standard TT', serif;
   color: #818181;
@@ -138,12 +139,12 @@ p {
   padding: 80px;
 }
 
-/* line 134, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 .content {
   padding: 16px;
 }
 
-/* line 140, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 h1 {
   display: block;
   font-size: 100px;
@@ -153,22 +154,24 @@ h1 {
   position: relative;
   text-align: center;
   padding-top: 80px;
+  color: white;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* line 151, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 h3 {
   font-size: 16px;
   font-family: 'Old Standard TT', serif;
   color: #818181;
 }
 
-/* line 160, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 #projects .col-lg-12 {
   height: auto;
   max-width: 100%;
   vertical-align: top;
 }
-/* line 166, ../sass/style.scss */
+/* line 180, ../sass/style.scss */
 #projects img {
   height: auto;
   max-width: 100%;
@@ -177,13 +180,13 @@ h3 {
   image-rendering: optimizeQuality;
 }
 
-/* line 175, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 #about {
   margin: 0;
   min-height: 55%;
   padding: 80px 0;
 }
-/* line 180, ../sass/style.scss */
+/* line 194, ../sass/style.scss */
 #about h2 {
   display: block;
   font-size: 38px;
@@ -195,7 +198,7 @@ h3 {
   padding-bottom: 50px;
   text-align: center;
 }
-/* line 192, ../sass/style.scss */
+/* line 206, ../sass/style.scss */
 #about h2after {
   bottom: 30px;
   content: "";
@@ -206,7 +209,7 @@ h3 {
   transform: translateX(-50%);
   width: 100px;
 }
-/* line 204, ../sass/style.scss */
+/* line 218, ../sass/style.scss */
 #about div {
   font-family: inherit;
   font-size: 16px;
@@ -216,17 +219,17 @@ h3 {
   text-indent: 25px;
 }
 
-/* line 214, ../sass/style.scss */
+/* line 228, ../sass/style.scss */
 #contact {
   font-size: 25px;
 }
-/* line 217, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 #contact strong {
   color: black;
 }
 
 @media (min-width: 1024px) {
-  /* line 223, ../sass/style.scss */
+  /* line 237, ../sass/style.scss */
   #menu-button {
     font-size: 14px;
     left: 2.5em;
@@ -235,76 +238,76 @@ h3 {
     z-index: 2;
   }
 
-  /* line 231, ../sass/style.scss */
+  /* line 245, ../sass/style.scss */
   .container {
     padding-right: 0;
     padding-left: 0;
   }
 
-  /* line 239, ../sass/style.scss */
+  /* line 253, ../sass/style.scss */
   #home h1 p {
     font-size: 42px;
     font-weight: 400;
   }
-  /* line 244, ../sass/style.scss */
+  /* line 258, ../sass/style.scss */
   #home h1 strong {
     font-size: 46px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  /* line 253, ../sass/style.scss */
+  /* line 267, ../sass/style.scss */
   .container-fluid {
     padding-right: 0;
     padding-left: 0;
   }
 
-  /* line 260, ../sass/style.scss */
+  /* line 274, ../sass/style.scss */
   #home h1 p {
     font-size: 38px;
     font-weight: 400;
   }
-  /* line 265, ../sass/style.scss */
+  /* line 279, ../sass/style.scss */
   #home h1 strong {
     font-size: 42px;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  /* line 274, ../sass/style.scss */
+  /* line 288, ../sass/style.scss */
   .container-fluid {
     padding-right: 0;
     padding-left: 0;
   }
 
-  /* line 281, ../sass/style.scss */
+  /* line 295, ../sass/style.scss */
   #top h1 p {
     font-size: 30px;
     font-weight: 400;
   }
-  /* line 286, ../sass/style.scss */
+  /* line 300, ../sass/style.scss */
   #top h1 strong {
     font-size: 34px;
   }
 
-  /* line 293, ../sass/style.scss */
+  /* line 307, ../sass/style.scss */
   #contact button {
     font-size: .7em;
   }
-  /* line 297, ../sass/style.scss */
+  /* line 311, ../sass/style.scss */
   #contact p {
     font-size: .7em;
   }
 }
-/* line 304, ../sass/style.scss */
+/* line 318, ../sass/style.scss */
 .middle-beige-font {
   color: #faebd7 !important;
 }
 
-/* line 308, ../sass/style.scss */
+/* line 322, ../sass/style.scss */
 .middle-beige-background {
   background-color: #faebd7;
 }
 
-/* line 312, ../sass/style.scss */
+/* line 326, ../sass/style.scss */
 .center {
   left: 50%;
   position: relative;
@@ -312,26 +315,26 @@ h3 {
   transform: translate(-50%, -50%);
 }
 
-/* line 319, ../sass/style.scss */
+/* line 333, ../sass/style.scss */
 .container-fluid {
   min-height: 100%;
   width: 100%;
 }
 
-/* line 325, ../sass/style.scss */
+/* line 339, ../sass/style.scss */
 .fill {
   height: auto;
   min-height: 100%;
   background-color: #f6f6f6;
 }
 
-/* line 331, ../sass/style.scss */
+/* line 345, ../sass/style.scss */
 .footer {
   bottom: 0;
   min-height: 30%;
   position: relative;
 }
-/* line 336, ../sass/style.scss */
+/* line 350, ../sass/style.scss */
 .footer .container {
   left: 50%;
   padding-top: 1.3em;
@@ -341,20 +344,20 @@ h3 {
   width: 100%;
 }
 
-/* line 346, ../sass/style.scss */
+/* line 360, ../sass/style.scss */
 .fixed-width {
   max-width: 300px;
   min-width: 300px;
 }
 
-/* line 351, ../sass/style.scss */
+/* line 365, ../sass/style.scss */
 .email {
   font-size: .9em;
   height: 2.4em;
   width: 8.7em;
 }
 
-/* line 358, ../sass/style.scss */
+/* line 372, ../sass/style.scss */
 .typed-cursor {
   -webkit-animation: blink .7s infinite;
   -moz-animation: blink .7s infinite;

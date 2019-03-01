@@ -1,0 +1,149 @@
+header{
+    background-color:#e8e8e8;
+}
+
+h1{
+    font-family: Raleway;  
+    display: block;
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin: 0 !important;
+    position: relative;
+    text-align: center;
+    color: white;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+  }
+
+.container-fluid{
+    padding-top:3%;
+    padding-left: 8px;}
+
+.col-sm-6{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.col-sm-5{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row{
+    margin-right:0;
+    margin-left:0;
+}
+
+.col.span2.wide .strong {
+    font-size: 1.067em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 0 3px 0;
+}
+
+h2{
+    font-family: cantata one;
+    color:#956d6d;
+    font-size: 40px;
+    text-align:center;
+}
+
+ul{
+    list-style: none;
+    line-height: 2.3;
+}
+
+li{
+   color: #b6aeae;
+   font-family: raleway;
+   font-weight: 300;
+}
+
+.strong {
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 0 3px 0;
+    color: #585858;
+    font-family: old standard tt;
+}
+
+#navbar ul {
+  list-style: none;
+  margin:0;
+  font-family: raleway;  
+  width: 100%;
+  font-weight: 300;
+  text-align: center;
+  
+}
+#navbar ul li {
+  display: inline-block;
+    margin: 13px;
+}
+#navbar ul li a {
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: #c0a9a9;
+}
+#navbar ul li a,
+#navbar ul li a:after,
+#navbar ul li a:before {
+  transition: all .5s;
+}
+#navbar ul li a:hover {
+  color:#6e6868d9;
+}
+
+/* stroke */
+#navbar.stroke ul li a
+{
+  position: relative;
+}
+#navbar.stroke ul li a:after,
+#navbar ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #6e6868d9;
+  height: 1px;
+}
+#navbar.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+#navbar ul li a {
+  transition: all 1s;
+}
+
+#navbar ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+#navbar ul li a:hover {
+  color: #6e6868d9;
+  z-index: 1;
+}
+#navbar ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  opacity: 1;
+}
