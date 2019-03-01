@@ -22,9 +22,18 @@
 
 <body class="container-fluid">
   <script>
-    let name = prompt("Quel est votre prénom?");
-    alert("Salut, " + name + "!");
-  </script>
+    function popup() {
+    elem = document.getElementById("popup");
+    let nom = "";
+    while (!nom) {
+    nom = prompt("Quel est votre prénom?");
+    let txt = "Bonjour " + nom + "!";
+    elem.innerText = txt;
+    }
+    }
+    window.onload = popup
+    </script>
+  <div id="popup"></div>
   <header class="row">
     <nav class="stroke nav" id="navbar">
         <ul style="
